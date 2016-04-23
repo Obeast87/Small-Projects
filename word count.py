@@ -9,5 +9,4 @@ data = page.read()
 print data
 
 #Counter
-
-print "The word %s was used %s times." % (y, data.index(y))
+print "The word %s was used %s times." % (y, data.count(y))
