@@ -7,4 +7,6 @@ data = page.read()
 print data
 
 #Counter
-print "The word gay was used %s times in this source." % data.count("gay")
+g = "gay"
+a = "Gay"
+print "The word gay was used %s times in this source." % (data.count(g) + data.count(a))
